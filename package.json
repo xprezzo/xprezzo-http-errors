@@ -1,0 +1,44 @@
+{
+  "name": "xprezzo-http-errors",
+  "description": "Create HTTP error objects for xprezzo",
+  "version": "1.1.1",
+  "author": "Ben Ajenoui <info@seohero.io>",
+  "license": "MIT",
+  "repository": "xprezzo/xprezzo-http-errors",
+  "dependencies": {
+    "depd": "~2.0.0",
+    "statuses": "~2.0.0",
+    "xprezzo-setprototypeof": "1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "~7.11.0",
+    "eslint-config-standard": "~14.1.1",
+    "eslint-plugin-import": "~2.22.1",
+    "eslint-plugin-markdown": "~1.0.2",
+    "eslint-plugin-node": "~11.1.0",
+    "eslint-plugin-promise": "~4.2.1",
+    "eslint-plugin-standard": "~4.0.1",
+    "expect.js": "~0.3.1",
+    "mocha": "~8.2.0",
+    "nyc": "~15.1.0"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md . ",
+    "test": "mocha --reporter spec --bail",
+    "test-ci": "nyc --reporter=text npm test",
+    "test-cov": "nyc --reporter=html --reporter=text npm test"
+  },
+  "keywords": [
+    "http",
+    "error"
+  ],
+  "files": [
+    "index.js",
+    "HISTORY.md",
+    "LICENSE",
+    "README.md"
+  ]
+}
