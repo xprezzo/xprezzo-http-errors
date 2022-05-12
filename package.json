@@ -1,25 +1,24 @@
 {
   "name": "xprezzo-http-errors",
   "description": "Create HTTP error objects for xprezzo",
-  "version": "1.1.1",
-  "author": "Ben Ajenoui <info@seohero.io>",
+  "version": "1.1.2",
+  "author": "Cloudgen Wong <cloudgen.wong@gmail.com>",
   "license": "MIT",
   "repository": "xprezzo/xprezzo-http-errors",
   "dependencies": {
     "depd": "~2.0.0",
-    "statuses": "~2.0.0",
-    "xprezzo-setprototypeof": "1.1.1"
+    "statuses": "2.0.1",
+    "xprezzo-setprototypeof": "1.1.2"
   },
   "devDependencies": {
-    "eslint": "~7.11.0",
-    "eslint-config-standard": "~14.1.1",
-    "eslint-plugin-import": "~2.22.1",
-    "eslint-plugin-markdown": "~1.0.2",
+    "eslint": "8.15.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-markdown": "2.2.1",
     "eslint-plugin-node": "~11.1.0",
-    "eslint-plugin-promise": "~4.2.1",
-    "eslint-plugin-standard": "~4.0.1",
+    "eslint-plugin-promise": "6.0.0",
     "expect.js": "~0.3.1",
-    "mocha": "~8.2.0",
+    "mocha": "10.0.0",
     "nyc": "~15.1.0"
   },
   "engines": {
